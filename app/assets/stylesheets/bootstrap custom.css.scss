@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+$body-bg: white;
+$navbar-default-bg: #27ae60;
+$font-family-sans-serif: 'Oswald', sans-serif;
+$navbar-default-link-color: white;
+$brand-primary: #f1c40f;
+$jumbotron-bg: white;
+$jumbotron-default-link-color: white;
+$jumbotron-heading-color:white;
+
+@import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.navbar {
+	margin:0;
+}
+
+.jumbotron {
+	background: url("http://www.hikingslovenia.com/images/stories/headers/peak_walk_julian_alps_018.jpg") no-repeat center center ;
+	background-size: 100%;
+}
