@@ -1,13 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 $body-bg: white;
-$navbar-default-bg: #27ae60;
+$navbar-default-bg: white;
+$navbar-height: 60px;
 $font-family-sans-serif: 'Oswald', sans-serif;
-$navbar-default-link-color: white;
+$navbar-default-link-color: #27ae60;
+$navbar-default-toggle-border-color:black;
+$navbar-default-link-hover-color:white;
+$navbar-border-radius: 0px;
+$navbar-default-link-hover-bg:#27ae60;
 $brand-primary: #f1c40f;
 $jumbotron-bg: white;
 $jumbotron-default-link-color: white;
 $jumbotron-heading-color:white;
+$btn-default-bg: #27ae60;
+$btn-default-color: white;
+$btn-default-border:#27ae60;
+$state-info-text: white;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
@@ -16,6 +26,7 @@ $jumbotron-heading-color:white;
 
 .navbar-brand {
 	font-weight: bold;
+	font-size:25px;
 }
 
 .navbar {
@@ -25,4 +36,20 @@ $jumbotron-heading-color:white;
 .jumbotron {
 	background: url("http://www.hikingslovenia.com/images/stories/headers/peak_walk_julian_alps_018.jpg") no-repeat center center ;
 	background-size: 100%;
+	padding: 150px;
+	border-bottom-width:12px;
+	border-bottom-color:#27ae60;
+	border-bottom-style: solid;
+	border-top-width:12px;
+	border-top-color:#27ae60;
+	border-top-style: solid;
 }
+
+.alert {
+	margin:0;
+	padding:0 px;
+	border-color:#2ecc71;
+	background-color: #2ecc71;
+	border-radius: 0px;
+}
+
