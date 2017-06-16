@@ -17,6 +17,7 @@ $btn-default-color: white;
 $btn-default-border:#27ae60;
 $state-info-text: white;
 
+
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
@@ -47,9 +48,22 @@ $state-info-text: white;
 
 .alert {
 	margin:0;
-	padding:0 px;
+	padding:10px;
 	border-color:#2ecc71;
 	background-color: #2ecc71;
 	border-radius: 0px;
 }
 
+
+.panel-body {
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+.panel-heading{
+	text-align:center;
+	
+}
